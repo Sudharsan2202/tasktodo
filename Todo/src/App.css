@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+}
+body{
+  background-color: #696969;
+
+}
+.form-control{
+  border: 2px;
+  background: #E0FFFF;
+  border-radius: 40px;
+  box-shadow: -8px -8px 15px rgba(255, 255,255 , 0.1), 
+  5px 5px 15px rgba(0, 0,0 , 0.2);
+  font-size: 16px;
+}
+.form-select{
+  border: 2px;
+  background: #ADD8E6;
+  border-radius: 40px;
+  box-shadow: -8px -8px 15px rgba(255, 255,255 , 0.1), 
+  5px 5px 15px rgba(0, 0,0 , 0.2);
+  font-size: 16px;
+}
+.card{
+  border: 2px;
+  background: 	#87CEFA;
+  border-radius: 40px;
+  box-shadow: -8px -8px 15px rgba(255, 255,255 , 0.1), 
+  5px 5px 15px rgba(0, 0,0 , 0.2);
+  font-size: 16px;
+}
+
