@@ -71,8 +71,8 @@ function TodoApp() {
                     <div key={index} className='col-lg-4 mb-5'>
                         <div className='card'>
                             <div className='card-body'>
-                                <h5 className='card-title'>{todo.taskName}</h5>
-                                <p className='card-text'>{todo.description}</p>
+                                <h5 className='card-title'>Name:{todo.taskName}</h5>
+                                <p className='card-text'>description: {todo.description}</p>
                                 <p className='card-text'>Status: {todo.status}</p>
                                 <button className='btn btn-secondary me-2'
                                     onClick={() => handleUpdateTodoStatus(index, todo.status === 'completed' ? 'not completed' : 'completed')}>
